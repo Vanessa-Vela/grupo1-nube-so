@@ -14,7 +14,7 @@ Costos, SLA, hardening, Linux minimal, AWS CLI y Terraform en una sola hoja:
 
 ##  Repetir la demo en casa
 ```bash
-git clone https://github.com/TU_USUARIO/grupo1-nube-so.git
+git clone https://github.com/Vanessa-Vela/grupo1-nube-so.git
 cd grupo1-nube-so
 aws configure                 # tus llaves de AWS, región us-east-1
 terraform init
@@ -26,7 +26,7 @@ terraform destroy             # ¡no olvides borrar todo!
 ##  Endurecer un servidor que ya tienes
 ```bash
 ssh -i grupo1.pem ubuntu@<IP>
-curl -O https://raw.githubusercontent.com/TU_USUARIO/grupo1-nube-so/main/hardening.sh
+curl -O https://raw.githubusercontent.com/Vanessa-Vela/grupo1-nube-so/main/hardening.sh
 chmod +x hardening.sh && sudo ./hardening.sh
 ```
 
