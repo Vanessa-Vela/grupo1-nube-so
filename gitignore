@@ -1,0 +1,6 @@
+# Nunca subir llaves ni estado de Terraform
+*.pem
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
