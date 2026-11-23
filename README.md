@@ -1,6 +1,8 @@
 # Grupo 1 — Nube y Linux minimal
 
 Material de la exposición del Grupo 1 (Darwin, Vanessa, Karina, Jordan).
+## Demo 2 - Video:
+https://drive.google.com/file/d/1nMTc3baro-8YiU6y9NIeYzouVPv1_oM8/view?usp=sharing
 
 ##  Cheat sheet completo
 Costos, SLA, hardening, Linux minimal, AWS CLI y Terraform en una sola hoja:
