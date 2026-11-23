@@ -46,7 +46,7 @@ resource "aws_security_group" "web" {
 resource "aws_instance" "web" {
   ami                    = data.aws_ami.ubuntu.id
   instance_type          = "t3.micro"
-  key_name               = "vockey" # crea antes el key pair "grupo1" en EC2
+  key_name               = "vockey"
   vpc_security_group_ids = [aws_security_group.web.id]
 
   user_data = <<-EOT
